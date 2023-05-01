@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --color-title: #b52184;
+  --color-text: #312d64;
+  --bg-gradient: linear-gradient(96.21deg, #343193 0%, #302c63 99.68%);
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Mulish', sans-serif;
+  background: var(--bg-gradient);
+}
+
+.astronauta {
+  width: 36.4rem;
+}
+
+main,
+.section-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  background: #fff;
+  width: 100vw;
+}
+
+.section-hero {
+  padding-bottom: 9.3rem;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.text h1 {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+
+  color: var(--color-title);
+}
+
+.text p {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.5rem;
+
+  color: var(--color-text);
+}
+
+.btn-scroll {
+  border: 0;
+  background: none;
+  margin-top: 3.5rem;
+}
+
+.section-planets {
+  padding: 52px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.section-planets .item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.6rem;
+  max-width: 35.2rem;
+  background-color: #fff;
+  padding: 2.6rem;
+}
+
+.item img {
+  width: 80px;
+  margin-bottom: 3.3rem;
+}
+
+.item-text,
+.contact h2,
+legend {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.9rem;
+  line-height: 3.7rem;
+
+  color: var(--color-title);
+}
+
+.item-text p {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2rem;
+
+  color: var(--color-text);
+}
+
+.item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact {
+  padding: 7.8rem 4rem;
+  background-color: #fff;
+}
+
+.info-label {
+  display: none;
+}
+
+legend {
+  margin-bottom: 6rem;
+}
+
+.wrappers {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  width: 100%;
+}
+
+.contact .input-custom,
+.input-email,
+textarea {
+  border: 1.5px solid #312d64;
+  align-items: center;
+  display: flex;
+  border-radius: 16px;
+  padding: 16px;
+  width: 100%;
+  height: 48px;
+  gap: 1.2rem;
+}
+
+textarea {
+  resize: none;
+}
+
+#info-text {
+  height: 12.6rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family: 'Mulish';
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+
+  color: #312d64;
+}
+
+.button {
+  margin-top: 2.4rem;
+  background: linear-gradient(96.21deg, #343193 0%, #302c63 99.68%);
+  border-radius: 16px;
+  padding: 1.6rem;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  /* Neutral Colors/White */
+
+  color: #ffffff;
+}
+
+footer {
+  padding: 3.2rem 1.6rem;
+  font-family: 'Mulish';
+  font-size: 1.9rem;
+  line-height: 2.4rem;
+
+  color: #fff;
+}
